@@ -40,10 +40,10 @@
             <ol type="i">
             <h4><li>Connecting apps to be used in recipe creation</li> </h4>
             <p>To begin creating a recipe, it's necessary to establish connections between the relevant applications using the
-            'Connection' tab.</p>
+            "Connection" tab.</p>
             <ul>
                 <li>
-                    Go to “Connected Apps” tab, click on “Create” button , then click on “Connection”.
+                    Go to "Connected Apps" tab, click on "Create" button , then click on "Connection".
                     <img class="mt-3" src="./assets/images/iPaas/connection-screenshot.png" alt="connections" height="500" width="1000"><br><br>
                 </li>
                 <li>
@@ -65,7 +65,7 @@
                 <li>Name and assign location: Give your recipe a descriptive name that reflects its purpose for easy identification later
                 on. Assign it to a location that aligns with its function or the team responsible for managing it.</li>
                 <li>
-                    Select a starting point:For integrating with formsflow, select the forms flow connector as the starting point .
+                    Select a starting point: For integrating with formsflow, select the forms flow connector as the starting point .
                 </li>
                 <li>
                     Begin building your recipe: Once you've selected a starting point, you can begin building your recipe. Customize it
@@ -78,7 +78,7 @@
 
             <ul>
                 <li>
-                    Click on the '+ ‘and then you can see our interface is divided into two sections: the left side showcases the recipe
+                    Click on the "+" and then you can see our interface is divided into two sections: the left side showcases the recipe
                     workflow, while the right side facilitates trigger and action configuration.
                 </li>
                 <li>
@@ -115,7 +115,7 @@
                 </li>
                 <img class="mt-3" src="./assets/images/iPaas/actionJiranew.gif" alt="jira-action" height="500" width="1000"><br><br>
                 <li>
-                    Finally, map the payload and callback suffix datapill for returning the data to Formsflow.
+                    Finally, map the payload and callback suffix datapill for returning the data to formsflow.
                 </li>
                 <img class="mt-3" src="./assets/images/iPaas/Return-response-formsflow.gif" alt="jira-action" height="500" width="1000"><br><br>
             </ul>
@@ -147,5 +147,40 @@
             <p>Finally, complete the process by submitting the incident reporting form .</p>
 
             <p>After submitting the form, you'll notice the recipe gets triggered and displays details in the Jobs
-            section.Additionally, a new ticket will be generated in Jira containing the submitted issue summary and description.</p>
+            section.Additionally, a new ticket will be generated in Jira containing the submitted issue summary and description.</p><br><br>
+
+            <h2>Integrations Dashboard</h2>
+            <hr>
+            <p>
+                Upon onboarding a new customer, we establish a dashboard named "Integrations," delivering crucial insights into workato
+                activities.To ensure data integrity and security, accessing this dashboard requires specific permissions. The Admin
+                tab's dashboard section will have the new dashboard Integrations. However, other users require authorization to access
+                the Integration dashboard and view the workato activities dashboard.To gain access to the dashboard, users must be
+                members of the analytics group.
+            </p>
+            <p>
+                We have outlined simple steps to guide users through the process of navigating and utilizing this feature efficiently
+                and productively. Let's explore how to do it seamlessly.
+            </p>
+            <p>
+                Here are the steps:
+            </p>
+            <ol>
+                <li><strong>Create a new role under formsflow-analytics: </strong></li>
+                <p>This step involves creating a new role specifically for accessing the Integrations dashboard.Example: such as
+                <code>/formsflow-analytics/group1</code>.</p>
+                <img class="mt-3" src="./assets/images/iPaas/create-role.png" alt="create role" height="500"
+                    width="1000"><br><br>
+                <li><strong>Add the newly created user role within the Integration Dashboard: </strong></li>
+                <p>This step requires adding the user role created in Step 1 to the Integration Dashboard.</p>
+                <img class="mt-3" src="./assets/images/iPaas/group-dashboard.png" alt="create role" height="500" width="1000"><br><br>
+                <li><strong>Assign the user role to the reviewer who requires access to the Integrations dashboard:</strong></li>
+                <p>In the Users tab, the user role created in Step 1 should be assigned to the reviewer who needs access to the
+                Integrations dashboard.</p>
+                <img class="mt-3" src="./assets/images/iPaas/user-role.png" alt="create role" height="500" width="1000"><br><br> 
+                <p>Once all the above steps are completed, log in as the reviewer user and navigate to the Insights page. From there, check
+                for the Integrations dashboard, which will display all the activities in workato.</p>
+                <img class="mt-3" src="./assets/images/iPaas/insights.png" alt="create role" height="500" width="1000"><br><br>
+
+            </ol>
     </section>
