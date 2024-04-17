@@ -1,18 +1,18 @@
 <article class="docs-article">
     <section class="docs-section" id="iPaas">
         <div>
-            <h1>Integration</h1>
+            <h1>Native Integration</h1>
             <hr>
             <p>
-                iPaaS is a cloud-based platform that facilitates data integration between different applications and systems across an
+                Native Integration module facilitates data integration between different applications and systems across an
                 organization.It provides tools and services to enable the development, execution, and governance of integration flows connecting
                 various cloud-based and on-premises systems.
             </p>
             <!-- Workato -->
             <p>
-                We rely on Workato as our chosen IPaaS provider. Workato provides an integration and automation platform designed to
+                Integration module provides an integration and automation platform designed to
                 help businesses connect their diverse range of applications and automate workflows, all without the need for extensive
-                coding expertise. This document outlines the implementation of IPaaS within the FormsFlow application.
+                coding expertise. This document outlines the implementation of Integration module within formsflow.
             </p>
 
             <h3>Exploring the Integration UI</h3>
@@ -21,15 +21,15 @@
                 <ol>
                     <li><strong>Recipe</strong> :Create and manage integration workflows using Recipe Editor.</li>
                     <li><strong>Connected Apps</strong> :Connect preferred applications and services to streamline automation processes.</li>
-                    <li><strong>Library</strong> :Access pre-built recipes and integrations from the Workato community, saving time in setting up workflows.</li>
+                    <li><strong>Library</strong> :Access pre-built recipes and integrations from the community, saving time in setting up workflows.</li>
                 </ol>
                 <img class="mt-3" src="./assets/images/iPaas/integrationUI.png" alt="Integration_UI" height="500" width="1000"><br><br>
             </p>
             <h5>Sample Use case</h5>
             <p>
-                In this example scenario, our objective is to develop a recipe for integrating Jira and FormsFlow applications. This
+                In this example scenario, our objective is to develop a recipe for integrating Jira and formsflow. This
                 integration will empower users to generate Jira issues directly from form submissions, leveraging the capabilities of
-                Workato. Let's proceed by detailing the sequential steps involved:
+                Native Integration. Let's proceed by detailing the sequential steps involved:
             </p>
             <h3>Step 1 : Form design </h3>
             <p>Design a form with essential key fields, such as incident date, description, and summary, all vital for
@@ -47,7 +47,7 @@
                     <img class="mt-3" src="./assets/images/iPaas/connection-screenshot.png" alt="connections" height="500" width="1000"><br><br>
                 </li>
                 <li>
-                    Please search and select the FormsFlow application. Once selected, provide the connection name, location, and relevant
+                    Please search and select the formsflow application. Once selected, provide the connection name, location, and relevant
                     authentication details such as Client ID, Client Secret, API Base URL, etc.
                 </li>
                 <li>
@@ -69,7 +69,7 @@
                 </li>
                 <li>
                     Begin building your recipe: Once you've selected a starting point, you can begin building your recipe. Customize it
-                    according to your needs using the options provided by Workato.
+                    according to your needs using the options provided by the Integration module.
                 </li>
                 <img class="mt-3" src="./assets/images/iPaas/Recipe-Name.gif" alt="Recipe-build" height="500" width="1000"><br><br>
             </ul>
