@@ -10366,6 +10366,14 @@ a.text-link:hover {
 .main-search-box {
   max-width: 600px;
 }
+.screenshot {
+	width: 100%;
+	height: auto;
+
+	border: calc(1rem/16) solid #efefef;
+
+	border-radius: 1rem;
+}
 .docs-overview .card {
   border-color: #e7e9ed;
   position: relative;
