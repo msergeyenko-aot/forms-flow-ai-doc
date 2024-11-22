@@ -10374,6 +10374,26 @@ a.text-link:hover {
 
 	border-radius: 1rem;
 }
+.diagram-sm {
+	width: 100%;
+  max-width: 300px;
+	height: auto;
+
+	border: none;
+}
+.diagram-md {
+	width: 100%;
+  max-width: 600px;
+	height: auto;
+
+	border: none;
+}
+.diagram-lg {
+	width: 100%;
+	height: auto;
+
+	border: none;
+}
 .docs-overview .card {
   border-color: #e7e9ed;
   position: relative;
