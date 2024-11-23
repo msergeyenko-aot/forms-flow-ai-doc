@@ -10368,6 +10368,7 @@ a.text-link:hover {
 }
 .screenshot {
 	width: 100%;
+  max-width: fit-content;
 	height: auto;
 
 	border: calc(1rem/16) solid #efefef;
@@ -10390,6 +10391,7 @@ a.text-link:hover {
 }
 .diagram-lg {
 	width: 100%;
+  max-width: fit-content;
 	height: auto;
 
 	border: none;
