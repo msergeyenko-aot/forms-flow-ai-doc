@@ -93,33 +93,48 @@
                         <div>
                             <h1 id="taskvariables">BPMN variable</h1>
                             <hr><br>
-                            BPMN variables are the form fields that you added to the form. Users can select form
-                            fields that they want to display in the task list.
+                            <p>
+                                BPMN variables are the fields that you added to the form's layout. The variables you select here you will also be able to see in the Review > Tasks.
+                            </p>
                             <ol>
-                                <b><li>Create a new form or Edit an already created form</li><br>
-                                <img src="./assets/images/task_variables/editForm.png" class="screenshot"><br><br>
-                                <li>Associate the form with the workflow</li><br>
-                                <img src="./assets/images/task_variables/associate_workflow.png" class="screenshot"><br><br>
-                                <li>Ensure the workflow has included FormBPMFilteredDataPipelineListener</li><br>
-                                <img src="./assets/images/task_variables/filtered_listener.png" class="screenshot"><br><br>
-                                <li>Add task filter variables to the form. The FormBPMFilteredDataPipelineListener
-                                    copies
-                                    the added task variable keys from form (formio) to Camunda variables</li>
-                                <ul><li>Select all fields:</li></b>
-                                    Select the checkbox to choose all fields from the form as task variables.<br><br>
-                                <img src="./assets/images/task_variables/all_variables.png" class="screenshot"><br><br>
-                                    <b><li>Select specific fields:</li></b>
-                                    Deselect the checkbox and choose only the necessary fields from the list for task variables.<br><br>
-                                <img src="./assets/images/task_variables/specific_fields.png" class="screenshot"></ul><br><br>    
+                                <li>
+                                    Create a new form or Edit an already created form
+
+                                    <img src="./assets/images/Screenshot 2024-11-26 164256.png" class="screenshot">
+                                </li>
+
+                                <li>
+                                    Create your form's layout
+                                </li>
+
+                                <li>
+                                    Switch to the flow of the form by clicking large "Flow" button on the right side
+                                </li>
+
+                                <li>
+                                    On the flow page there is a Variables button on the top left.
+
+                                    <img src="./assets/images/Screenshot 2024-11-26 164833.png" class="screenshot">
+
+                                    <ul>
+                                        <li>
+                                            Select each field you would like by clicking on it.
+
+                                            <img src="./assets/images/Screenshot 2024-11-26 165300.png" class="screenshot">
+                                        </li>
+
+                                        <li>
+                                            On the right side you can see the type of a variable the form's field would provide. Click "Add Variable" if you want to keep this variable for usage in the Flow, Submissions and Tasks. You can also add an alternative label to the variable if you would like. If you want to edit the label of a variable after it has been added, just click the variable pill to bring the settings up.
+
+                                            <img src="./assets/images/Screenshot 2024-11-26 165614.png" class="screenshot">
+                                        </li>
+                                        <br>
+                                    </ul>  
+                                </li>
                                 
-                                <b><li>Click the edit label button to update the label if required
-                                </li><br>
-                                <img src="./assets/images/task_variables/edit_label.png" class="screenshot"><br><br>
-                                
-                                    <li>Submit new application with this form</li><br>
-                                <img src="./assets/images/task_variables/form_submit.png" class="screenshot"><br><br>
-                                <li>Now these variables are displayed in user's tasklist, you can select any variables from the list </li></b><br>
-                                <img src="./assets/images/task_variables/taskAttr_list.png" class="screenshot"><br><br>
+                                <li>
+                                    Once the form is submitted you will have access to the variables you have selected in the previous step in the Review > Tasks. You can click on "Create New Filter" button at the top, or edit a filter that has been created before. In the side popup you can click on "Task attributes" and select which varibles to show.
+                                </li>
                             </ol>
                         </div>
                         </section>
