@@ -11,12 +11,12 @@ window.onload = function () {
   let url = (window.location).href
   const id = url.substring(url.lastIndexOf("#")+1,url.length)
   responsiveSidebar();
-  $("li:not(.section-title):not(.intro)").hide()
+  // $("li:not(.section-title):not(.intro)").hide()
 
   const itemExist = document.getElementById(id)
   let target = itemExist? id : "introduction";
   setPreviosNextfun(target);
-  // minimizeTitle()
+  minimizeTitle()
 };
 
 window.onresize = function () {
