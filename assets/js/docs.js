@@ -16,7 +16,7 @@ window.onload = function () {
   const itemExist = document.getElementById(id)
   let target = itemExist? id : "introduction";
   setPreviosNextfun(target);
-  minimizeTitle()
+  // minimizeTitle()
 };
 
 window.onresize = function () {
