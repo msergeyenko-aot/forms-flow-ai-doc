@@ -11,6 +11,7 @@ window.onload = function () {
   let url = (window.location).href
   const id = url.substring(url.lastIndexOf("#")+1,url.length)
   responsiveSidebar();
+  // hide main menu sections on load
   // $("li:not(.section-title):not(.intro)").hide()
 
   const itemExist = document.getElementById(id)
