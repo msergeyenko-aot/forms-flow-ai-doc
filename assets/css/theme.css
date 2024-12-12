@@ -10315,21 +10315,28 @@ a.text-link:hover {
 .social-list li {
   font-size: 1.125rem;
   background: white;
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   text-align: center;
-  border-radius: 50%;
   padding-top: 2px;
 }
 .social-list li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
 
   color: #4d61fc;
 
   background: unset;
 }
+
+.social-list li a svg {
+  width: 100%;
+  height: 100%;
+}
+
 .social-list li a:hover {
   color: #173b67;
 }
