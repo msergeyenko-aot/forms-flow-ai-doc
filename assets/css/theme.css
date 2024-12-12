@@ -10630,7 +10630,7 @@ a.text-link:hover {
 }
 .docs-content {
   margin-left: 300px;
-  padding-bottom: 500px;
+  padding-bottom: 0;
 }
 .docs-article {
   padding: 2rem;
