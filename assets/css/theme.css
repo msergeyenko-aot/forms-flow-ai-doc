@@ -3110,7 +3110,7 @@ fieldset:disabled .btn {
   border-color: #4d61fc;
 }
 .btn-outline-primary:hover {
-  color: #000;
+  color: white;
   background-color: #4d61fc;
   border-color: #4d61fc;
 }
