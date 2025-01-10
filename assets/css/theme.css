@@ -10579,6 +10579,7 @@ a.text-link:hover {
 }
 .docs-nav .nav-item.section-title {
   margin-left: 0;
+  pointer-events: none;
 }
 .docs-nav .nav-item.section-title .nav-link {
   padding: 0;
