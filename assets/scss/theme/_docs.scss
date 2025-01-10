@@ -182,8 +182,10 @@
 	
 	
 	.section-title {
-		font-size: 1rem;
 		margin-bottom: 1rem;
+		
+		font-size: 1rem;
+		pointer-events: none;
 		a {
 			&:hover {
 				text-decoration: none;
